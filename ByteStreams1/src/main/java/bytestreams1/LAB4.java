@@ -5,6 +5,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class LAB4 {
+
     public static void main(String[] args) {
         String s = "Hello World!";
         byte[] b = s.getBytes();
@@ -33,4 +34,6 @@ public class LAB4 {
             Logger.getLogger(LAB4.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+
 }
+
